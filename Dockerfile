@@ -1,4 +1,4 @@
-FROM php:7-apache
+FROM openshift/wordpress-apache-php7
 
 RUN a2enmod rewrite expires
 
